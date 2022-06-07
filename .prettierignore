@@ -1,0 +1,29 @@
+# Dependencies
+/node_modules
+
+# Configs
+/commitlint.config.js
+
+# Caches
+/.eslintcache
+/.vscode
+
+# Testings
+/coverage
+
+# Builds
+/build
+
+# Miscellaneous
+/.DS_Store
+/.env
+/.env.*
+/.npmrc
+
+# Logs
+/*-error.log
+/*-debug.log
+
+# Types
+
+# Ignores

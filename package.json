@@ -1,0 +1,38 @@
+{
+  "name": "@nyfulcrum/create-app",
+  "version": "1.4.13",
+  "bin": "./bin/index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": "https://github.com/nyfulcrum/bin",
+  "homepage": "https://github.com/nyfulcrum/bin#readme.md",
+  "bugs": {
+    "url": "https://github.com/nyfulcrum/bin/issues"
+  },
+  "contributors": [
+    {
+      "name": "Rodrick Alcantara",
+      "url": "https://github.com/constROD"
+    }
+  ],
+  "description": "Custom CLI for creating custom template for different kinds of application",
+  "author": "Rodrick Alcantara <rialcantara21@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./bin/index.js",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^6.0.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.4"
+  }
+}

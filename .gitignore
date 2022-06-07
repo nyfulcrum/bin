@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules
+
+# Configs
+
+# Caches
+/.eslintcache
+
+# Testings
+/coverage
+
+# Builds
+/build
+
+# Miscellaneous
+/.DS_Store
+/.env
+/.env.*
+/.npmrc
+/package-lock.json
+
+# Logs
+/*-error.log
+/*-debug.log
+
+# Types
+
+# Ignores
