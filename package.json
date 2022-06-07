@@ -1,6 +1,6 @@
 {
   "name": "@nyfulcrum/create-app",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "bin": "./bin/index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
